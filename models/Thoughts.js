@@ -37,7 +37,9 @@ function getDate() {
 }
 
 thoughtsSchema.virtual("reactionCount").get(function () {
-  return this.reactions.length;
+  if (this.reactions.length > 0) {
+    return this.reactions.length;
+  }
 });
 
 const Thoughts = model("Thoughts", thoughtsSchema);
