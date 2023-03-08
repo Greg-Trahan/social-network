@@ -1,7 +1,6 @@
-# 18 NoSQL: Social Network API
+# 18 Social Network
 
-Name: Greg Trahan  
-Due: 16FEB2023
+Name: Greg Trahan
 
 Click [here](https://github.com/Greg-Trahan/social-network) to see my GitHub Repo.
 
